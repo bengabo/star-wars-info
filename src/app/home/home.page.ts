@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  public testData = [ 
+    {
+      name: 'Luke Skywalker',
+    },
+    {
+      name: 'R2-D2'
+    }
+  ];
 
   constructor() {}
 
